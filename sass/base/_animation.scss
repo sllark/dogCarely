@@ -1,0 +1,13 @@
+@keyframes changeBtnBg {
+  0%{
+    background: linear-gradient(to top, #6e40a7, #9749de);
+
+    background: transparent;
+
+  }
+  100%{
+    background: linear-gradient(to top, #6e40a7, #9749de);
+    opacity: 0;
+
+  }
+}

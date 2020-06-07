@@ -1,0 +1,54 @@
+.postListingBtns{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  a{
+    display: inline-block;
+    color: white!important;
+
+    text-align: right;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 17rem;
+
+    margin: 0 1rem;
+    position: relative;
+
+    &:after,&:before{
+      display: block;
+      content: '';
+      height: 1rem;
+      width: 1rem;
+      position: absolute;
+      left: 1.5rem;
+      top: 50%;
+      transform: translateY(-50%) rotate(-225deg);
+      border-bottom:2px solid white;
+      border-right: 2px solid white;
+    }
+
+    &:before{
+      left: 2.2rem;
+    }
+
+    &:last-of-type{
+
+      text-align: left;
+
+      &:after,&:before{
+        right: 1.5rem;
+        left: unset;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+      }
+
+      &:before{
+        right: 2.2rem;
+        left: unset;
+      }
+    }
+  }
+}
