@@ -1,7 +1,7 @@
 
 
 
-fetch("../data/featured.json").then(
+fetch("/data/featured.json").then(
     function (response) {
         return response.json();
     }
@@ -18,7 +18,7 @@ fetch("../data/featured.json").then(
 
 
 
-fetch("../data/allPosts.json").then(
+fetch("/data/allPosts.json").then(
     function (response) {
         return response.json();
     }
