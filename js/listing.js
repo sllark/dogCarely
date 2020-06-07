@@ -1,6 +1,6 @@
 
 
-fetch("../data/allPosts.json").then(
+fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
     function (response) {
         return response.json();
     }

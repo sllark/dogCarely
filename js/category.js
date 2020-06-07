@@ -21,7 +21,7 @@ catName !== '' ? catName : catName = allPosts[0].cat[0]['meta-name'];
 document.getElementById(catName).classList.add('active');
 
 
-fetch("../data/allPosts.json").then(
+fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
     function (response) {
         return response.json();
     }
