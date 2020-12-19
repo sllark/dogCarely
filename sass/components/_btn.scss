@@ -33,5 +33,36 @@
     }
 
   }
+
+
+  &--shop{
+
+    font-size: 15px;
+    line-height: 1.3333333333;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #14a96d;
+    border-radius: 4px;
+    white-space: nowrap;
+    padding: 15px;
+    background-color: $color-primary;
+    //background: #00bf08;
+    color: #fff;
+
+    &:hover{
+      background-color: $color-primary-dark;
+
+      //
+    }
+
+
+  }
+
+
+
 }
 

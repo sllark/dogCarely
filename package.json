@@ -4,18 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass sass/main.scss css/main.css -w",
-    "listing":"node-sass sass/listingSCSS.scss css/listing.css -w",
-    "compile": "node-sass sass/main.scss css/main.css",
-    "headerCompile": "node-sass sass/headerImp.scss css/header.css",
+    "start": "sass sass/main.scss:css/main.css sass/postSCSS.scss:css/post.css --watch  --style=compressed  --no-charset",
+    "compile": "sass sass/main.scss:css/main.css sass/postSCSS.scss:css/post.css  --style=compressed  --no-charset",
+    "minifyJS": "grunt watch --force",
+    "postCompile": "sass sass/headerImp.scss css/header.css",
     "prefix-css": "postcss css/main.css --use autoprefixer --output css/style.prefix.css",
-    "compress-css": "node-sass css/main.css css/main.css --output-style compressed",
-    "compress-header": "node-sass css/header.css css/header.css --output-style compressed",
+    "compress-css": "sass css/main.css css/main.css --output-style compressed",
+    "compress-header": "sass css/header.css css/header.css --output-style compressed",
     "build-css": "npm-run-all prefix-css compress-css"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
+    "grunt-contrib-watch": "~0.5.3",
+    "sass": "1.30.0",
+    "sitemaps": "^1.0.0"
+  },
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "uglify-es": "^3.3.9"
   }
 }

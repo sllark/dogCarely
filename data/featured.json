@@ -1,12 +1,15 @@
 {
-  "title":"Now You're Comfortable, Is It Time for a Change?",
-  "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-  "date":"FEBRUARY 22, 2020",
+  "title":"5 Best Automatic Dog Feeders For Large Dogs Under $100",
+  "desc":"The dismay in feeding scheduling can easily be tackled by the use of automatic dog feeders. Automatic dog feeders dispense your dog’s food automatically according to a schedule.",
+  "date":"DECEMBER 18, 2020",
   "cat":[
-    {"name":"CAREER","link":"#"},
-    {"name":"EMPLOYMENT","link":"#"},
-    {"name":"LIFESTYLE","link":"#"}
+    {
+      "name": "Dog Food",
+      "link": "/category.html?cat=dog-food&id=1",
+      "meta-name": "dog-food"
+    }
   ],
-  "bg":"img/featuredPostBg1.jpg",
-  "link":"#"
+  "img": "dog-feeder-lg",
+  "imgAlt": "dog eating from automatic feeder",
+  "link": "/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html"
 }

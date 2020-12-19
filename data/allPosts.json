@@ -1,195 +1,116 @@
 {
-  "posts":[
+  "posts": [
     {
-      "title":"Can Dogs eat Cooked Black eyed peas?",
-      "desc":"Black eyed peas are a good source of Carbohydrates, Protein, Fiber, Vitamin A, Vitamin  B, Vitamin  C and ...",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"Dog Food","link":"/category.html?cat=dog-food&id=1","meta-name":"dog-food"}
+      "title": "[Guide] How to take Care of a Dog After She gives Birth",
+      "desc": "Mother dog that gives birth goes through a very hard time. The mother needs attention as she might have gone through complications... ",
+      "date": "December 19, 2020",
+      "cat": [
+        {
+          "name": "Dog Health",
+          "link": "/category.html?cat=dog-health&id=1",
+          "meta-name": "dog-health"
+        },
+        {
+          "name": "Dog Food",
+          "link": "/category.html?cat=dog-food&id=1",
+          "meta-name": "dog-food"
+        }
       ],
-      "img":"black-eyed-peas.jpg",
-      "link":"/post/can-dogs-eat-cooked-black-eyed-peas.html#",
-      "postID":"01"
+      "img": "mother-nursing-puppies",
+      "imgAlt": "Dog mother nursing puppies",
+      "link": "/post/how-to-take-care-of-a-dog-after-she-gives-birth.html",
+      "postID": "06"
     },
     {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
+      "title": "What Should I Do If My Dog Swallowed A Rawhide?\n",
+      "desc": "If your dog has swollen a rawhide and is showing any of the signs like choking, gagging then you can help him to vomit it out or ... ",
+      "date": "June 20, 2020",
+      "cat": [
+        {
+          "name": "Dog Health",
+          "link": "/category.html?cat=dog-health&id=1",
+          "meta-name": "dog-health"
+        },
+        {
+          "name": "Dog Food",
+          "link": "/category.html?cat=dog-food&id=1",
+          "meta-name": "dog-food"
+        }
       ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
+      "img": "dog-chewing-rawhide-sm",
+      "imgAlt": "dog chewing rawhide",
+      "link": "/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html",
+      "postID": "05"
     },
     {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
+      "title": "What are the Best Natural Treatments for Fleas and Ticks?",
+      "desc": "No one wants parasites on their pets as Fleas and ticks both can transmit diseases and health issues. Get rid of fleas and ticks using these 5 natural remedies. ",
+      "date": "June 10, 2020",
+      "cat": [
+        {
+          "name": "Dog Health",
+          "link": "/category.html?cat=dog-health&id=1",
+          "meta-name": "dog-health"
+        }
       ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
+      "img": "dog-itching-sm",
+      "imgAlt": "dog itching and scratching",
+      "link": "/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html",
+      "postID": "04"
     },
     {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
+      "title": "5 Proven no-Pull Harness for your German Shepherd",
+      "desc": "After reviewing dozens of harnesses, we have found 5 best no-pull harnesses that will work for your German shepherds.",
+      "date": "May 30, 2020",
+      "img": "german-shephard-harness",
+      "portraitImg": true,
+      "imgAlt": "German Shepherd with a no pull harness on it.",
+      "link": "/post/5-proven-no-pull-harness-for-your-german-shepherd.html",
+      "cat": [
+        {
+          "name": "Dog Training",
+          "link": "/category.html?cat=dog-training&id=1",
+          "meta-name": "dog-training"
+        },
+        {
+          "name": "Dog Behavior",
+          "link": "/category.html?cat=dog-behavior&id=1",
+          "meta-name": "dog-behavior"
+        }
       ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#"
+      "postID": "03"
     },
     {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
+      "title": "Can Dogs eat Cooked Black eyed peas?",
+      "desc": "Black eyed peas are a good source of Carbohydrates, Protein, Fiber, Vitamin A, Vitamin  B, Vitamin  C and ...",
+      "date": "May 20, 2020",
+      "cat": [
+        {
+          "name": "Dog Food",
+          "link": "/category.html?cat=dog-food&id=1",
+          "meta-name": "dog-food"
+        }
       ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
+      "img": "can-dogs-eat-cooked-black-eyed-peas-mainSmall",
+      "imgAlt": "black eyed peas",
+      "link": "/post/can-dogs-eat-cooked-black-eyed-peas.html#",
+      "postID": "02"
     },
     {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
+      "title": "Can Puppies drink milk that humans drink?",
+      "desc": "You have a puppy and you are wondering if you can feed that little soul milk, that hummans drink? or you...",
+      "date": "May 16, 2020",
+      "cat": [
+        {
+          "name": "Dog Food",
+          "link": "/category.html?cat=dog-food&id=1",
+          "meta-name": "dog-food"
+        }
       ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#123"
-    },
-    {
-      "title":"Now You're Comfortable, Is It Time for a Change?",
-      "desc":"A lot of people spend their whole lives striving to be comfortable, and when they get there, they don't know what to do with themselves. If your entire reason for",
-      "date":"FEBRUARY 22, 2020",
-      "cat":[
-        {"name":"CAREER","link":"#"},
-        {"name":"EMPLOYMENT","link":"#"},
-        {"name":"LIFESTYLE","link":"#"}
-      ],
-      "img":"featuredPostBg1.jpg",
-      "link":"#"
+      "img": "puppy-drinking-milk-sm",
+      "imgAlt": "Puppy drinking milk",
+      "link": "/post/can-puppies-drink-milk-that-humans-drink.html",
+      "postID": "01"
     }
   ]
 }

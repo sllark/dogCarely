@@ -1,24 +1,28 @@
+let angle='skas';
 
 
-
-fetch("https://sllark.github.io/dogCarely/data/featured.json").then(
+fetch("data/featured.json").then(
     function (response) {
         return response.json();
     }
 ).then(
     function (data) {
-        let sectionFeatured=document.getElementById('sectionFeatured');
+        let sectionFeatured = document.getElementById('sectionFeatured');
 
         //Adding BG
-        sectionFeatured.innerHTML='<div class="sectionFeatured__bg"><img src="' + data.bg + '" alt="featured post bg"></div>';
-
-        addPostText(data,sectionFeatured);
+        sectionFeatured.innerHTML = '<div class="sectionFeatured__bg">' +
+            '<picture>\n' +
+            '  <source srcset="img/webp/' + data.img + '.webp" type="image/webp">\n' +
+            '  <source srcset="img/' + data.img + '.jpg" type="image/jpg">\n' +
+            '  <img src="img/' + data.img + '.jpg" alt="' + data.imgAlt + '">\n' +
+            '            </picture>\n' +
+            '</div>';
+        addPostText(data, sectionFeatured);
     }
 );
 
 
-
-fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
+fetch("data/allPosts.json").then(
     function (response) {
         return response.json();
     }
@@ -26,36 +30,37 @@ fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
     function (data) {
 
 
-        let postsContainer=document.getElementById('postsContainer'),
-            allPosts=[...data.posts];
+        let postsContainer = document.getElementById('postsContainer'),
+            allPosts = [...data.posts];
 
 
-        allPosts=allPosts.splice(0,10);
+        allPosts = allPosts.splice(0, 10);
 
 
-        allPosts.forEach(post=>{
-            let article=document.createElement('article');
+
+        allPosts.forEach((post) => {
+            let article = document.createElement('article');
             article.classList.add('listigPost');
 
-
-            article.innerHTML='<a href="'+post.link+'" class="listigPost__img">\n' +
+            article.innerHTML = '<a href="' + post.link + '" class="listigPost__img">\n' +
                 '            <picture>\n' +
-                '              <!--<source srcset="img/webp/dogCarely_Logo.webp" type="image/webp">-->\n' +
-                '              <source srcset="img/'+post.img+'" type="image/png">\n' +
-                '              <img src="img/'+post.img+'" alt="Dog Carely">\n' +
+                '              <source data-srcset="img/webp/' + post.img + '.webp" type="image/webp">\n' +
+                '              <source data-srcset="img/' + post.img + '.jpg" type="image/jpg">\n' +
+                '              <img data-src="img/' + post.img + '.jpg" alt="' + post.imgAlt + '" class="lazy ' + (!!post.portraitImg ? 'portraitImg' : '') + '">\n' +
                 '            </picture>\n' +
                 '          </a>\n';
 
 
-        addPostText(post,article);
-            postsContainer.appendChild(article)
+            addPostText(post, article);
+            postsContainer.appendChild(article);
+            lazyLoadInstance.update();
         });
 
-        if(data.posts.length<=10){
+        if (data.posts.length <= 10) {
 
-            let listingBtns=document.querySelector('.postListingBtns');
+            let listingBtns = document.querySelector('.postListingBtns');
 
-            for (let i=0;i<listingBtns.children.length;i++){
+            for (let i = 0; i < listingBtns.children.length; i++) {
                 listingBtns.children[i].classList.add('disabled');
             }
         }
@@ -63,56 +68,53 @@ fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
 );
 
 
+function addPostText(data, parent) {
 
-function addPostText(data,parent) {
 
-
-    let container=document.createElement('div');
+    let container = document.createElement('div');
     container.classList.add('postDisplayText');
     container.classList.add('container');
 
-    let categories=document.createElement('div');
+    let categories = document.createElement('div');
     categories.classList.add('postDisplayText__categories');
 
-    data.cat.forEach(ele=>{
+    data.cat.forEach(ele => {
 
-        let cat=document.createElement('a');
+        let cat = document.createElement('a');
         cat.classList.add('btn');
         cat.classList.add('btn--catg');
-        cat.href=ele.link;
-        cat.innerHTML=ele.name;
+        cat.href = ele.link;
+        cat.innerHTML = ele.name;
 
         categories.appendChild(cat);
     });
 
 
+    let h1 = document.createElement('h1');
+    h1.innerHTML = data.title;
 
-
-
-    let h1=document.createElement('h1');
-    h1.innerHTML=data.title;
-
-    let h1a=document.createElement('a');
-    h1a.href=data.link;
+    let h1a = document.createElement('a');
+    h1a.href = data.link;
     h1a.appendChild(h1);
 
-    let p=document.createElement('p');
-    p.innerHTML=data.desc;
+    let p = document.createElement('p');
+    p.innerHTML = data.desc;
 
 
-    let more=document.createElement('div');
+    let more = document.createElement('div');
     more.classList.add('postDisplayText__more');
 
-    let readMore=document.createElement('a');
-    readMore.href=data.link;
+    let readMore = document.createElement('a');
+    readMore.href = data.link;
     readMore.classList.add('btn');
     readMore.classList.add('btn--primary');
-    readMore.innerHTML="read more";
+    readMore.setAttribute('title',data.title);
+    readMore.innerHTML = "read more";
 
 
-    let date=document.createElement('h5');
+    let date = document.createElement('h5');
     date.classList.add('postDisplayText__more__date');
-    date.innerHTML=data.date;
+    date.innerHTML = data.date;
 
 
     more.appendChild(readMore);
@@ -125,11 +127,7 @@ function addPostText(data,parent) {
     container.appendChild(more);
 
 
-
     parent.appendChild(container);
-
-
-
 
 
 }

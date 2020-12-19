@@ -1,0 +1,12 @@
+{
+  "date": "June 10, 2020",
+  "cat": [
+    {
+      "name": "Dog Health",
+      "link": "/category.html?cat=dog-health&id=1",
+      "meta-name": "dog-health"
+    }
+  ],
+  "link": "/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html",
+  "postID": "04"
+}

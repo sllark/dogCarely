@@ -1,0 +1,10 @@
+{
+  "date":"DECEMBER 18, 2020",
+  "cat":[
+    {
+      "name": "Dog Food",
+      "link": "/category.html?cat=dog-food&id=1",
+      "meta-name": "dog-food"
+    }
+  ]
+}

@@ -1,30 +1,31 @@
-.post{
+.post {
 
   display: flex;
   flex-flow: column;
+  margin-top: 0;
 
-  &__Top{
+  &__Top {
     height: 34vh;
     min-height: 24rem;
 
 
-    .postDisplayText{
-      align-items: center!important;
+    .postDisplayText {
+      align-items: center !important;
       justify-content: space-evenly;
 
-      h1{
+      h1 {
         text-align: center;
         width: 100%;
         text-transform: capitalize;
       }
 
-      .postDisplayText__more__date{
-        margin: 0!important;
+      .postDisplayText__more__date {
+        margin: 0 !important;
       }
     }
   }
 
-  .container{
+  .container {
     //margin-top: 3rem;
     max-width: 110rem;
     padding: 2rem;
@@ -38,96 +39,136 @@
   }
 
 
-  &__text{
+  &__text {
 
-    img{
-      width: 100%;
+    img {
+      width: 70rem;
       height: auto;
+      max-height: 60rem;
+      margin: 2rem 0;
+    }
+
+    .imgSmall {
+      width: 30rem;
+    }
+
+    .imgMed{
+      width: 60rem;
     }
 
 
-    img{
-      margin: 1rem 0 2rem;
-      //width: 95%;
-      //border: 1px solid black;
-    }
 
-    h2{
+
+    h2 {
       font-size: 3.6rem;
       margin: 1.5rem 0;
       font-weight: bold;
+
+      @media screen and (max-width: 500px) {
+        font-size: 2.5rem;
+      }
+
+      a {
+        display: inline;
+        color: $color-primary;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+
     }
 
-    h3{
-      font-size: 3rem;
-      text-align: left!important;
+    h3 {
+      font-size: 2.8rem;
+      text-align: left !important;
       align-self: flex-start;
       margin: 2rem 0 0;
+
+      @media screen and (max-width: 500px) {
+        font-size: 2.2rem;
+      }
+
     }
 
-
-    h4{
-      font-size: 3.2rem;
-      font-weight: bold;
-      text-align: left!important;
+    h4 {
+      font-size: 2.2rem;
+      text-align: left !important;
       align-self: flex-start;
-      margin: 2rem 0 1rem;
-      text-decoration: underline;
+      margin-top: 2rem;
+      line-height: 1.3;
+
+      a {
+        display: inline;
+        color: $color-primary;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
     }
 
-    h5{
+    h5 {
       font-size: 2rem;
-      text-align: left!important;
+      text-align: left !important;
       align-self: flex-start;
       margin: 2rem 0 0;
     }
 
-    p{
+    p {
       width: 100%;
       font-size: 1.85rem;
       font-family: 'Karla', sans-serif;
       line-height: 1.7;
       margin: 1rem 0;
       //word-spacing: 0.5px;
-      a{
+      a {
         display: inline;
         color: $color-primary;
-        &:hover{
+
+        &:hover {
           text-decoration: underline;
         }
       }
     }
 
-    ul{
+    .articleSection {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+
+    ul {
 
       width: 100%;
       padding-left: 2rem;
-      margin: 1rem 0;
-      li{
-        margin: 1.3rem 0;
+      margin: 1rem 0 0;
+
+
+      @media screen and (max-width: 400px) {
         padding-left: 1rem;
-        font-size: 1.7rem;
+      }
+
+      li {
+        margin: 1.3rem 0;
+        padding-left: 1.5rem;
+        font-size: 1.8rem;
         width: 100%;
         text-align: left;
-        font-weight: 400;
         position: relative;
-        line-height: 1.3;
+        line-height: 1.5;
 
-        a{
-          display: inline;
-          color: $color-primary;
-
-          &:hover{
-            text-decoration: underline;
-          }
-        }
-
-        &:before{
+        &:before {
           display: block;
           content: '';
           width: 5px;
           height: 2px;
-          background-color: black;
           position: absolute;
           top: 1.1rem;
           left: 0;
@@ -135,32 +176,144 @@
 
         }
 
+
+        a {
+          display: inline;
+          color: $color-primary;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+
       }
 
     }
 
+    .numbered-list {
+      list-style-type: decimal;
+      margin-left: 2rem;
+      margin-top: 0;
 
-    .circled-list{
+      li {
+        padding-left: 0;
+        margin: 0 0 1rem;
+      }
+    }
+
+    .dashed-list {
+
+      li {
+        &:before {
+          border-radius: 0 !important;
+          background-color: black;
+        }
+
+      }
+
+    }
+
+    .innerDashed{
+      li {
+        &:before {
+          height: 2px !important;
+        }
+
+      }
+    }
+
+
+    .circled-list {
 
       margin-top: 0;
 
       li {
-        margin-top: 0.5rem;
         padding-left: 1.5rem;
 
         &:before {
-
           width: 6px;
           height: 6px;
           border-radius: 100%;
+          background-color: black;
         }
       }
 
     }
 
-    .font-med{
+    .productsTable {
+
+      margin: 1rem 0 2rem;
+
+      @media screen and (max-width: 500px) {
+        padding-left: 0;
+      }
+
+
+      li {
+
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+
+        & > * {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+        }
+
+        span {
+          border: 1px solid $color-secondary-dark;
+          padding: 0.8rem 0.5rem;
+          border-radius: 100%;
+          margin-right: 1rem;
+
+          &:before {
+            color: $color-secondary-dark;
+            font-size: 2rem;
+
+          }
+        }
+
+
+        p {
+          font-size: 2.5rem;
+          width: auto;
+          line-height: 1.2;
+
+
+          @media screen and (max-width: 500px) {
+            font-size: 2.2rem;
+          }
+
+          a {
+            font-weight: bold;
+          }
+
+        }
+
+
+      }
+
+    }
+
+    .summaryBox {
+      background: #fef5c4;
+      border: 1px solid #fadf98;
+      padding: 15px;
+      margin: 5px 0 30px;
+
+
+      @media screen and (max-width: 400px) {
+        padding: 8px;
+      }
+
+
+    }
+
+    .font-med {
       font-size: 2.6rem;
-      font-weight: 500;
+      font-weight: 600;
 
     }
 
@@ -170,6 +323,16 @@
 
 }
 
-strong{
+strong {
   font-weight: bold;
+}
+
+.underlineTitle {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.anchorHeading {
+  padding-top: 6rem !important;
+  margin-top: 0 !important;
 }

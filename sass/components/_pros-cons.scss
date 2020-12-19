@@ -1,0 +1,78 @@
+.prosCons {
+
+  width: 95%;
+  margin: 2rem 1rem 1rem;
+  display: flex;
+
+
+
+  @media screen and (max-width: 500px) {
+    flex-flow: column;
+  }
+
+
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    margin: 2rem 0 1rem;
+  }
+
+  .pros, .cons {
+
+    width: 50%;
+
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
+
+    h5 {
+      padding: 1rem 1.7rem;
+      margin-top: 0;
+      color: white;
+      font-size: 1.8rem;
+
+    }
+
+    ul {
+      li {
+        padding-left: 2.3rem;
+
+        &::before {
+          height: 100%;
+          top: 0;
+          transform: translateY(0);
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+        }
+      }
+
+    }
+
+
+  }
+
+  .pros {
+    h5 {
+      background-color: #00bf08;
+    }
+
+    li:before {
+      color: #00bf08;
+      content: '\e800';
+    }
+  }
+
+  .cons {
+    h5 {
+      background-color: #bf000a;
+    }
+
+    li:before {
+      content: '\e801';
+      color: #bf000a;
+    }
+  }
+
+
+}

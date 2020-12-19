@@ -1,168 +1,183 @@
-let hrefAttr=window.location.search,
-    pageNum=1,
-    catName='';
+let hrefAttr = window.location.search,
+    pageNum = 1,
+    catName = '';
+
+
+
+
 
 // Separating Search Parameters from URL
 
-hrefAttr=hrefAttr.slice(1,hrefAttr.length);
-hrefAttr=hrefAttr.split('&');
+hrefAttr = hrefAttr.slice(1, hrefAttr.length);
+hrefAttr = hrefAttr.split('&');
 
-hrefAttr.forEach(attr=>{
-    if(attr.indexOf('id')>=0){
-        pageNum=Number(attr.split('=')[1]);
-    }else if(attr.indexOf('cat')>=0){
-        catName=attr.split('=')[1];
+hrefAttr.forEach(attr => {
+    if (attr.indexOf('id') >= 0) {
+        pageNum = Number(attr.split('=')[1]);
+    } else if (attr.indexOf('cat') >= 0) {
+        catName = attr.split('=')[1];
     }
 });
 
-catName !== '' ? catName : catName = allPosts[0].cat[0]['meta-name'];
+
 //=================================
 
-document.getElementById(catName).classList.add('active');
+if (catName !== '') {
+
+    fetch("data/allPosts.json").then(
+        function (response) {
+            return response.json();
+        }
+    ).then(
+        function (data) {
+
+            let postsContainer = document.getElementById('postsContainer'),
+                allPosts = [...data.posts],
+                newPostsButton = document.getElementById('newPosts'),
+                oldPostsButton = document.getElementById('oldPosts');
 
 
-fetch("https://sllark.github.io/dogCarely/data/allPosts.json").then(
-    function (response) {
-        return response.json();
-    }
-).then(
-    function (data) {
-
-        let postsContainer=document.getElementById('postsContainer'),
-            allPosts=[...data.posts],
-            newPosts=document.getElementById('newPosts'),
-            oldPosts=document.getElementById('oldPosts');
+            catName !== '' ? catName : catName = allPosts[0].cat[0]['meta-name'];
+            document.getElementById(catName).classList.add('active');
 
 
+            // Removing post that does not belong to Searched Category
 
-        // Removing post that does not belong to Searched Category
+            allPosts = allPosts.map(post => {
+                let foundPost = false;
+                post.cat.forEach(cat => {
+                    if (cat['meta-name'] === catName)
+                        foundPost = true;
+                });
 
-        allPosts = allPosts.map(post=>{
-            let ret=false;
-            post.cat.forEach(cat=>{
-                if(cat['meta-name']===catName)
-                    ret=true;
+                if (foundPost)
+                    return post;
+                else
+                    return null;
             });
 
-            if(ret)
-                return post;
-            else
-                return null;
-        });
+            //removing null members
+            allPosts = allPosts.filter(function (el) {
+                return el != null;
+            });
 
-        allPosts = allPosts.filter(function (el) {
-            return el != null;
-        });
-
-        //=================================
-
-
-
-        //Adjusting Posts and button to show
-        if(pageNum===0)
-            pageNum++;
-        else if(pageNum<0)
-            pageNum=1;
-
-
-        let postNumEnd=(pageNum*10);
-        allPosts=allPosts.slice(postNumEnd-10,postNumEnd+1);
-
-
-        let newNum=Number(pageNum)-1;
-        newPosts.href="?cat="+catName+"&id="+ (newNum>0 ? newNum : 1);
-
-
-        if(allPosts.length<10){
-            oldPosts.classList.add('disabled');
-        }
-        else {
-            let oldNum=Number(pageNum)+1;
-            newPosts.href="?cat="+catName+"&id="+oldNum;
-        }
-
-        allPosts.forEach(post=>{
-            let article=document.createElement('article');
-            article.classList.add('listigPost');
-
-
-            article.innerHTML='<a href="'+post.link+'" class="listigPost__img">\n' +
-                '            <picture>\n' +
-                '              <!--<source srcset="img/webp/dogCarely_Logo.webp" type="image/webp">-->\n' +
-                '              <source srcset="img/'+post.img+'" type="image/png">\n' +
-                '              <img src="img/'+post.img+'" alt="Dog Carely">\n' +
-                '            </picture>\n' +
-                '          </a>\n';
-
-
-            addPostText(post,article);
-            postsContainer.appendChild(article)
-        });
-
-
-        if(allPosts.length<=10 ){
-
-            let listingBtns=document.querySelector('.postListingBtns');
-
-            for (let i=0;i<listingBtns.children.length;i++){
-                listingBtns.children[i].classList.add('disabled');
+            if ((pageNum-1)*10>allPosts.length){
+                window.location.href= '/category.html?cat='+ catName + "&id=1";
+                return;
             }
+
+            // console.log(allPosts.length);
+            // console.log((pageNum-1)*10);
+            //=================================
+
+
+            //Adjusting Posts and button to show
+            if (pageNum === 0 || pageNum < 0)
+                pageNum = 1;
+
+
+            if (pageNum <= 1) {
+                newPostsButton.classList.add('disabled');
+            } else {
+                newPostsButton.href = "?cat=" + catName + "&id=" +( pageNum - 1);
+            }
+
+
+            let postNumEnd = (pageNum * 10);
+            allPosts = allPosts.slice(postNumEnd - 10, postNumEnd);
+
+
+            if (allPosts.length < 10) {
+                oldPostsButton.classList.add('disabled');
+            } else {
+                oldPostsButton.href = "?cat=" + catName + "&id=" +( pageNum + 1);
+            }
+
+
+
+            allPosts.forEach(post => {
+                let article = document.createElement('article');
+                article.classList.add('listigPost');
+
+
+                article.innerHTML = '<a href="' + post.link + '" class="listigPost__img">\n' +
+                    '            <picture>\n' +
+                    '              <source data-srcset="img/webp/' + post.img + '.webp" type="image/webp">\n' +
+                    '              <source data-srcset="img/' + post.img + '.jpg" type="image/jpg">\n' +
+                    '              <img data-src="img/' + post.img + '.jpg" alt="' + post.imgAlt + '" class="lazy ' + ( !!post.portraitImg ? 'portraitImg' : '' ) + '">\n' +
+                    '            </picture>\n' +
+                    '          </a>\n';
+
+
+                addPostText(post, article);
+                postsContainer.appendChild(article);
+                lazyLoadInstance.update();
+
+            });
+
+            if (allPosts.length<1) nothingFound();
+
+
         }
+    );
 
+} else {
+    nothingFound();
+    let listingBtns = document.querySelector('.postListingBtns');
+
+    for (let i = 0; i < listingBtns.children.length; i++) {
+        listingBtns.children[i].classList.add('disabled');
     }
-);
+
+}
 
 
+function addPostText(data, parent) {
 
-function addPostText(data,parent) {
 
-
-    let container=document.createElement('div');
+    let container = document.createElement('div');
     container.classList.add('postDisplayText');
     container.classList.add('container');
 
-    let categories=document.createElement('div');
+    let categories = document.createElement('div');
     categories.classList.add('postDisplayText__categories');
 
-    data.cat.forEach(ele=>{
+    data.cat.forEach(ele => {
 
-        let cat=document.createElement('a');
+        let cat = document.createElement('a');
         cat.classList.add('btn');
         cat.classList.add('btn--catg');
-        cat.href=ele.link;
-        cat.innerHTML=ele.name;
+        cat.href = ele.link;
+        cat.innerHTML = ele.name;
 
         categories.appendChild(cat);
     });
 
 
+    let h1 = document.createElement('h1');
+    h1.innerHTML = data.title;
 
-
-
-    let h1=document.createElement('h1');
-    h1.innerHTML=data.title;
-
-    let h1a=document.createElement('a');
-    h1a.href=data.link;
+    let h1a = document.createElement('a');
+    h1a.href = data.link;
     h1a.appendChild(h1);
 
-    let p=document.createElement('p');
-    p.innerHTML=data.desc;
+    let p = document.createElement('p');
+    p.innerHTML = data.desc;
 
 
-    let more=document.createElement('div');
+    let more = document.createElement('div');
     more.classList.add('postDisplayText__more');
 
-    let readMore=document.createElement('a');
-    readMore.href=data.link;
+    let readMore = document.createElement('a');
+    readMore.href = data.link;
     readMore.classList.add('btn');
     readMore.classList.add('btn--primary');
-    readMore.innerHTML="read more";
+    readMore.innerHTML = "read more";
 
 
-    let date=document.createElement('h5');
+    let date = document.createElement('h5');
     date.classList.add('postDisplayText__more__date');
-    date.innerHTML=data.date;
+    date.innerHTML = data.date;
 
 
     more.appendChild(readMore);
@@ -175,11 +190,15 @@ function addPostText(data,parent) {
     container.appendChild(more);
 
 
-
     parent.appendChild(container);
 
 
+}
 
 
+function nothingFound() {
+    let postsContainer = document.getElementById('postsContainer');
+
+    postsContainer.innerHTML="<h1 class='nothingFound'>Nothing Found. See our <a href='/'>latest posts.</a><h1>"
 
 }
