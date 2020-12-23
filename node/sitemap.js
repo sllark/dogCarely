@@ -51,11 +51,6 @@ const links = [
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/5-proven-no-pull-harness-for-your-german-shepherd.html',
-        priority: '0.70',
-        changefreq: 'monthly',
-    },
-    {
         loc: 'https://dogcarely.com/post/can-dogs-eat-cooked-black-eyed-peas.html',
         priority: '0.70',
         changefreq: 'monthly',
