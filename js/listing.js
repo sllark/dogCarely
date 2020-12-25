@@ -5,11 +5,11 @@ let idIndex = hrefAttr.indexOf('id='),
 pageNum.replace('#', '');
 pageNum = Number(pageNum);
 
-if (pageNum === 1) {
-    window.location.href = '/';
-} else {
 
+if (pageNum > 1)  {
 
+    if(pageNum > 1)
+        document.title= 'Page '+pageNum+' - Dog Carely'
 
     fetch("data/allPosts.json").then(
         function (response) {
@@ -24,9 +24,14 @@ if (pageNum === 1) {
                 newPosts = document.getElementById('newPosts'),
                 oldPosts = document.getElementById('oldPosts');
 
-            if ((pageNum-1)*10>allPosts.length){
+            if (  allPosts.length < (pageNum * 10) ){
 
-                window.location.href= "listing.html?id=2";
+
+                if (allPosts.length > 10 )
+                    window.location.href= "listing.html?id="+( allPosts.length % 10 );
+                else
+                    nothingFound();
+
                 return;
             }
 
@@ -35,7 +40,7 @@ if (pageNum === 1) {
 
                 let postNumEnd = (pageNum * 10);
 
-                allPosts = allPosts.slice(postNumEnd - 10, postNumEnd + 1);
+                allPosts = allPosts.slice(postNumEnd - 10, postNumEnd);
 
 
                 if (pageNum === 2) {
@@ -93,7 +98,9 @@ if (pageNum === 1) {
         }
     );
 }
-
+else{
+    nothingFound();
+}
 
 function addPostText(data, parent) {
 
@@ -160,3 +167,15 @@ function addPostText(data, parent) {
 
 
 
+function nothingFound() {
+    let postsContainer = document.getElementById('postsContainer');
+    document.title= 'Nothing Found - Dog Carely'
+
+    postsContainer.innerHTML="<h1 class='nothingFound'>Nothing Found. See our <a href='/'>latest posts.</a><h1>";
+
+    let listingBtns = document.querySelector('.postListingBtns');
+    for (let i = 0; i < listingBtns.children.length; i++) {
+        listingBtns.children[i].classList.add('disabled');
+    }
+
+}

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass sass/main.scss:css/main.css sass/postSCSS.scss:css/post.css --watch  --style=compressed  --no-charset",
+    "start": "sass sass/main.scss:css/main.css sass/postSCSS.scss:css/post.css sass/listingSCSS.scss:css/listing.css --watch  --style=compressed  --no-charset",
     "compile": "sass sass/main.scss:css/main.css sass/postSCSS.scss:css/post.css  --style=compressed  --no-charset",
     "minifyJS": "grunt watch --force",
     "postCompile": "sass sass/headerImp.scss css/header.css",

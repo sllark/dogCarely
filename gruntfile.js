@@ -12,17 +12,20 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-            js:  { files: 'js/*.js', tasks: [ 'uglify' ] },
+            html:  { files: 'js/*.js', tasks: [ 'uglify' ] },
+            js:  { files: ['*.html','post/*.html'], tasks: [ 'htmlmin' ] },
         },
         htmlmin: {                                     // Task
             dist: {                                      // Target
                 options: {                                 // Target options
                     removeComments: true,
-                    collapseWhitespace: true
+                    collapseWhitespace: true,
+                    minifyCSS:true,
+                    minifyJS:true
                 },
                 files: [{
                     expand: true,     // Enable dynamic expansion.
-                    src: ['**/*.html'],
+                    src: ['*.html','post/*.html'],
                 }]
             },
         }
@@ -34,8 +37,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 // register at least this one task
-    grunt.registerTask('default', [ 'uglify' ]);
-    grunt.registerTask('default', ['htmlmin']);
+    grunt.registerTask('default', [ 'htmlmin' ]);
+    grunt.registerTask('minifyJS',[ 'uglify' ]);
+    // grunt.registerTask('default', []);
 
 
 
