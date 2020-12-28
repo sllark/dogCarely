@@ -21,42 +21,42 @@ const filePath = path.join(__dirname, '../', 'sitemap.xml');
 
 const links = [
     {
-        loc: 'https://dogcarely.com',
+        loc: 'https://www.dogcarely.com',
         priority: '1.00',
         changefreq: 'weekly',
     },
     {
-        loc: 'https://dogcarely.com/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html',
+        loc: 'https://www.dogcarely.com/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/how-to-take-care-of-a-dog-after-she-gives-birth.html',
+        loc: 'https://www.dogcarely.com/post/how-to-take-care-of-a-dog-after-she-gives-birth.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html',
+        loc: 'https://www.dogcarely.com/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html',
+        loc: 'https://www.dogcarely.com/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/5-proven-no-pull-harness-for-your-german-shepherd.html',
+        loc: 'https://www.dogcarely.com/post/5-proven-no-pull-harness-for-your-german-shepherd.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/can-dogs-eat-cooked-black-eyed-peas.html',
+        loc: 'https://www.dogcarely.com/post/can-dogs-eat-cooked-black-eyed-peas.html',
         priority: '0.70',
         changefreq: 'monthly',
     },
     {
-        loc: 'https://dogcarely.com/post/can-puppies-drink-milk-that-humans-drink.html',
+        loc: 'https://www.dogcarely.com/post/can-puppies-drink-milk-that-humans-drink.html',
         priority: '0.70',
         changefreq: 'monthly',
     }
