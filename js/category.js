@@ -175,7 +175,7 @@ function addPostText(data, parent) {
     readMore.href = data.link;
     readMore.classList.add('btn');
     readMore.classList.add('btn--primary');
-    readMore.innerHTML = "read more";
+    readMore.innerHTML = "read article";
 
 
     let date = document.createElement('h5');
@@ -201,9 +201,12 @@ function addPostText(data, parent) {
 
 function nothingFound() {
     let postsContainer = document.getElementById('postsContainer');
-    document.title = 'Nothing Found - Dog Carely'
+    document.title = 'Nothing Found - Dog Carely';
 
-    postsContainer.innerHTML = "<h1 class='nothingFound'>Nothing Found. See our <a href='/'>latest posts.</a><h1>";
+    let main=document.querySelector('main');
+    main.classList.add('centerAbsolute');
+    main.innerHTML='';
+    main.innerHTML = "<h1 class='nothingFound'>Nothing Found. See our <a href='/'>latest posts.</a><h1>";
 
     let listingBtns = document.querySelector('.postListingBtns');
     for (let i = 0; i < listingBtns.children.length; i++) {

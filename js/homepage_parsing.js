@@ -109,7 +109,7 @@ function addPostText(data, parent) {
     readMore.classList.add('btn');
     readMore.classList.add('btn--primary');
     readMore.setAttribute('title',data.title);
-    readMore.innerHTML = "read more";
+    readMore.innerHTML = "read article";
 
 
     let date = document.createElement('h5');

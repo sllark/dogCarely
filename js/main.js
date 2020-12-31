@@ -27,7 +27,17 @@ window.addEventListener('click', function (e) {
 
 window.addEventListener('scroll', topLogManager);
 
-window.onload = topLogManager;
+window.addEventListener('load',()=>{
+
+    topLogManager();
+
+    let footerAnchors=document.querySelectorAll('.footer__socialMedia__links a');
+    console.log(footerAnchors);
+    footerAnchors.forEach(anchor=>{
+        anchor.setAttribute('rel','noopener');
+    })
+
+});
 
 function topLogManager() {
     let header = document.querySelector('.header');
