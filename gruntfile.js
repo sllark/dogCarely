@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         htmlmin: {                                     // Task
             dist: {                                      // Target
                 options: {                                 // Target options
-                    removeComments: true,
+                    //removeComments: true,
                     collapseWhitespace: true,
                     minifyCSS:true,
                     minifyJS:true

@@ -32,7 +32,7 @@ window.addEventListener('load',()=>{
     topLogManager();
 
     let footerAnchors=document.querySelectorAll('.footer__socialMedia__links a');
-    console.log(footerAnchors);
+    // console.log(footerAnchors);
     footerAnchors.forEach(anchor=>{
         anchor.setAttribute('rel','noopener');
     })

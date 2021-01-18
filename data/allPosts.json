@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "title": "How To Use Coconut Oil To Remove Dog Tear Stains",
+      "desc": "Want to know what is tear stain, and how can you get rid of them? Read this article to know everything about tear stains and to know the best way to remove dog's tear stains.",
+      "date": "January 18, 2020",
+      "cat": [
+        {
+          "name": "Dog Health",
+          "link": "/category.html?cat=dog-health&id=1",
+          "meta-name": "dog-health"
+        },
+        {
+          "name": "Dog Food",
+          "link": "/category.html?cat=dog-food&id=1",
+          "meta-name": "dog-food"
+        }
+      ],
+      "img": "dog-with-tear-strains-small",
+      "imgAlt": "Dog with tear stains",
+      "link": "/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html",
+      "postID": "07"
+    },
+    {
       "title": "[Guide] How to take Care of a Dog After She gives Birth",
       "desc": "Mother dog that gives birth goes through a very hard time. The mother needs attention as she might have gone through complications... ",
       "date": "December 19, 2020",
