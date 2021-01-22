@@ -28,6 +28,14 @@ module.exports = function (grunt) {
                     src: ['*.html','post/*.html'],
                 }]
             },
+        },
+        minjson: {
+            compile: {
+                files: {
+                    'data/allPosts.json': 'data/allPosts.json',
+                    'data/featured.json': 'data/featured.json',
+                }
+            }
         }
     });
 
@@ -35,10 +43,13 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-minjson');
+
 
 // register at least this one task
     grunt.registerTask('default', [ 'htmlmin' ]);
     grunt.registerTask('minifyJS',[ 'uglify' ]);
+    grunt.registerTask('minifyJSON',[ 'minjson' ]);
     // grunt.registerTask('default', []);
 
 

@@ -1,0 +1,15 @@
+{
+  "date": "January 22, 2020",
+  "cat": [
+    {
+      "name": "Dog Health",
+      "link": "/category.html?cat=dog-health&id=1",
+      "meta-name": "dog-health"
+    },
+    {
+      "name": "Dog Behavior",
+      "link": "/category.html?cat=dog-behavior&id=1",
+      "meta-name": "dog-behavior"
+    }
+  ]
+}
