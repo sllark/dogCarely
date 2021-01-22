@@ -64,8 +64,12 @@ const links = [
         loc: 'https://www.dogcarely.com/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
-
 ];
 
 sitemaps(filePath, links);
