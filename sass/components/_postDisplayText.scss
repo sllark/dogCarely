@@ -53,14 +53,13 @@
   p {
     font-size: 1.8rem;
     width: 70%;
-    font-family: Karla, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: normal;
     line-height: 1.4;
     margin-bottom: 1.7rem;
     @media screen and (max-width: 800px) {
       width: 85%;
     }
-
 
     @media screen and (max-width: 600px) {
       width: 95%;
@@ -81,6 +80,9 @@
 
     }
 
+    a{
+      font-weight: bold;
+    }
 
     .postDisplayText__more__date {
       margin-left: 3rem;
