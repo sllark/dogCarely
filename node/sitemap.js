@@ -69,6 +69,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/how-to-make-a-dog-smell-good-without-a-bath.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 
