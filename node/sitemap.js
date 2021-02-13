@@ -74,6 +74,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/how-to-make-a-dog-smell-good-without-a-bath.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 
