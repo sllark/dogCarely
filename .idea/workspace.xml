@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48d1d926-545a-4632-9943-1f4d97a56c38" name="Default Changelist" comment="">
+    <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/listing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_post.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +38,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1o3iIAFzFBwgGRBSlR0PVza6ZQb" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1pUXJ0dJUluJ0Gu5p0A3jJ1LZAx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -25,35 +51,51 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jack\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
-      <recent name="C:\Users\Jack\WebstormProjects\dogCarely\DogCarely\img\webp" />
-      <recent name="C:\Users\Jack\WebstormProjects\dogCarely\DogCarely\img" />
-      <recent name="C:\Users\Jack\WebstormProjects\dogCarely\DogCarely\post" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="48d1d926-545a-4632-9943-1f4d97a56c38" name="Default Changelist" comment="" />
-      <created>1612521593551</created>
+      <changelist id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="" />
+      <created>1615238567281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612521593551</updated>
-      <workItem from="1612521594722" duration="8292000" />
-      <workItem from="1613198766564" duration="6261000" />
+      <updated>1615238567281</updated>
+      <workItem from="1615238569375" duration="5019000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

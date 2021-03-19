@@ -79,6 +79,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/why-are-dogs-ears-so-soft-and-sensitive.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 
