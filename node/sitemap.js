@@ -84,6 +84,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/why-are-dogs-ears-so-soft-and-sensitive.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 
