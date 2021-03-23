@@ -10,7 +10,6 @@ menu.onclick = function () {
     nav.classList.toggle('hideNav');
     menu.classList.toggle('makeCross')
 };
-
 window.addEventListener('click', function (e) {
 
     // if( !(nav.contains(e.target)) && e.target!==nav && e.target!==menu && !(menu.contains(e.target)))

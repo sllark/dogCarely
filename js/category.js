@@ -39,7 +39,8 @@ if (catName !== '') {
         nothingFound();
     }
 
-} else {
+}
+else {
     nothingFound();
 }
 
@@ -81,9 +82,6 @@ function addPosts(data) {
         return;
     }
 
-    // console.log(allPosts.length);
-    // console.log((pageNum-1)*10);
-    //=================================
 
 
     //Adjusting Posts and button to show

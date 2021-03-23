@@ -24,8 +24,8 @@ if (pageNum > 1)  {
                 newPosts = document.getElementById('newPosts'),
                 oldPosts = document.getElementById('oldPosts');
 
-            if (  allPosts.length < (pageNum * 10) ){
 
+            if (  allPosts.length < ((pageNum -1) * 10) ){
 
                 if (allPosts.length > 10 )
                     window.location.href= "listing.html?id="+( allPosts.length % 10 );

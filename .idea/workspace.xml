@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listing.html" beforeDir="false" afterPath="$PROJECT_DIR$/listing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/sitemap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_post.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +57,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615238567281</updated>
-      <workItem from="1615238569375" duration="5019000" />
+      <workItem from="1615238569375" duration="5693000" />
+      <workItem from="1615230023110" duration="392000" />
+      <workItem from="1615236570922" duration="598000" />
     </task>
     <servers />
   </component>
@@ -97,5 +76,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

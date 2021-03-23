@@ -1,6 +1,3 @@
-let angle='skas';
-
-
 fetch("data/featured.json").then(
     function (response) {
         return response.json();
