@@ -5,11 +5,6 @@
       "name": "Dog Health",
       "link": "/category.html?cat=dog-health&id=1",
       "meta-name": "dog-health"
-    },
-    {
-      "name": "Dog Food",
-      "link": "/category.html?cat=dog-food&id=1",
-      "meta-name": "dog-food"
     }
   ]
 }

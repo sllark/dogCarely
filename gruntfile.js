@@ -33,7 +33,7 @@ module.exports = function (grunt) {
             compile: {
                 files: {
                     'data/allPosts.json': 'data/allPosts.json',
-                    'data/featured.json': 'data/featured.json',
+                    'data/featured.json': 'data/featured.json'
                 }
             }
         }

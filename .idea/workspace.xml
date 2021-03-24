@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postMetaData/how-to-make-a-dog-smell-good-without-a-bath.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/postMetaData/how-to-make-a-dog-smell-good-without-a-bath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,9 +59,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
     </key>
   </component>
@@ -60,6 +76,9 @@
       <workItem from="1615238569375" duration="5693000" />
       <workItem from="1615230023110" duration="392000" />
       <workItem from="1615236570922" duration="598000" />
+      <workItem from="1615230037156" duration="7031000" />
+      <workItem from="1615252034265" duration="8000" />
+      <workItem from="1615241585594" duration="2953000" />
     </task>
     <servers />
   </component>
