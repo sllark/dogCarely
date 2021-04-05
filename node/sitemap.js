@@ -94,6 +94,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/should-i-let-my-dog-see-my-dead-dog.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/what-are-dog-weak-spots-to-exploit-if-a-dog-attacks-you.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 

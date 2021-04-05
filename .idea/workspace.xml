@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web-Projects/023-firebase-with-js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +71,8 @@
       <workItem from="1615252034265" duration="8000" />
       <workItem from="1615241585594" duration="3043000" />
       <workItem from="1615230039141" duration="746000" />
-      <workItem from="1615259070687" duration="6943000" />
+      <workItem from="1615259070687" duration="7253000" />
+      <workItem from="1615230026250" duration="47000" />
     </task>
     <servers />
   </component>
