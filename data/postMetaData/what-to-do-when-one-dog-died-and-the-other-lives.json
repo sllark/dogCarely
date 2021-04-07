@@ -1,0 +1,15 @@
+{
+  "date": "April 08, 2021",
+  "cat": [
+    {
+      "name": "Dog Behavior",
+      "link": "/category.html?cat=dog-behavior&id=1",
+      "meta-name": "dog-behavior"
+    },
+    {
+      "name": "Dog Training",
+      "link": "/category.html?cat=dog-training&id=1",
+      "meta-name": "dog-training"
+    }
+  ]
+}
