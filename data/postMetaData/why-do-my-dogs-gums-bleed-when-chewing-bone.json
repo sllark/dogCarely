@@ -1,0 +1,20 @@
+{
+  "date": "April 14, 2021",
+  "cat": [
+    {
+      "name": "Dog Health",
+      "link": "/category.html?cat=dog-health&id=1",
+      "meta-name": "dog-health"
+    },
+    {
+      "name": "Dog Food",
+      "link": "/category.html?cat=dog-food&id=1",
+      "meta-name": "dog-food"
+    },
+    {
+      "name": "Dog Behavior",
+      "link": "/category.html?cat=dog-behavior&id=1",
+      "meta-name": "dog-behavior"
+    }
+  ]
+}

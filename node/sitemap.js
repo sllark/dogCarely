@@ -104,6 +104,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/what-to-do-when-one-dog-died-and-the-other-lives.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 

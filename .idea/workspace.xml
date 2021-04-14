@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="" />
+    <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web-Projects/023-firebase-with-js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,9 +52,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,6 +78,9 @@
       <workItem from="1615259070687" duration="7253000" />
       <workItem from="1615230026250" duration="47000" />
       <workItem from="1615287916000" duration="925000" />
+      <workItem from="1615260522844" duration="2315000" />
+      <workItem from="1615230027812" duration="66000" />
+      <workItem from="1615256598641" duration="3456000" />
     </task>
     <servers />
   </component>
