@@ -109,6 +109,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/can-dogs-die-from-the-leptospirosis-vaccine.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 

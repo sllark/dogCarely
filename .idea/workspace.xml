@@ -4,6 +4,7 @@
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/sitemap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
@@ -80,7 +81,9 @@
       <workItem from="1615287916000" duration="925000" />
       <workItem from="1615260522844" duration="2315000" />
       <workItem from="1615230027812" duration="66000" />
-      <workItem from="1615256598641" duration="3456000" />
+      <workItem from="1615256598641" duration="4259000" />
+      <workItem from="1615230031969" duration="241000" />
+      <workItem from="1615230074032" duration="5002000" />
     </task>
     <servers />
   </component>
