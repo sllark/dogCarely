@@ -3,8 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/allPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allPosts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsm/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsm/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-dogs-die-from-the-leptospirosis-vaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-die-from-the-leptospirosis-vaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-are-dog-weak-spots-to-exploit-if-a-dog-attacks-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-dog-weak-spots-to-exploit-if-a-dog-attacks-you.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-to-do-when-one-dog-died-and-the-other-lives.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-to-do-when-one-dog-died-and-the-other-lives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/postSCSS.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/postSCSS.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +41,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -41,6 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,10 +87,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
     </key>
   </component>
@@ -83,7 +117,8 @@
       <workItem from="1615230027812" duration="66000" />
       <workItem from="1615256598641" duration="4259000" />
       <workItem from="1615230031969" duration="241000" />
-      <workItem from="1615230074032" duration="5002000" />
+      <workItem from="1615230074032" duration="7671000" />
+      <workItem from="1615230210188" duration="22214000" />
     </task>
     <servers />
   </component>

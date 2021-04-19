@@ -114,6 +114,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/can-dogs-die-from-the-leptospirosis-vaccine.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/best-mineral-supplement-for-dogs-that-eat-dirt.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 

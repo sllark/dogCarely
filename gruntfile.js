@@ -12,8 +12,8 @@ module.exports = function (grunt) {
             }
         },
         watch: {
-            html:  { files: 'js/*.js', tasks: [ 'uglify' ] },
-            js:  { files: ['*.html','post/*.html'], tasks: [ 'htmlmin' ] },
+            js:  { files: 'js/*.js', tasks: [ 'uglify' ] },
+            // htmljs:  { files: ['*.html','post/*.html'], tasks: [ 'htmlmin' ] },
         },
         htmlmin: {                                     // Task
             dist: {                                      // Target

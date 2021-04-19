@@ -1,0 +1,43 @@
+.tableOfContent{
+
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 1.4rem;
+  margin-bottom: 1em;
+  align-self: flex-start;
+
+  h5{
+    margin-top: 0!important;
+  }
+
+  ul{
+    padding-left: 1rem!important;
+
+    p{
+      width: 100% !important;
+    }
+  }
+
+  &>ul{
+    margin: 0!important;
+    padding-left: 0!important;
+  }
+
+  &__list{
+    transition: max-height 0.2s ease;
+    max-height: 0;
+    overflow: hidden;
+
+    li ul{
+      margin-top: 1.3rem!important;
+    }
+  }
+
+}
+
+.show{
+  .tableOfContent__list{
+    max-height: 3000px;
+  }
+}
+
