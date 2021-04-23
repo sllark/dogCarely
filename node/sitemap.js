@@ -119,6 +119,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/best-mineral-supplement-for-dogs-that-eat-dirt.html',
         priority: '0.70',
         changefreq: 'monthly',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/how-long-can-a-dog-live-with-high-liver-enzymes.html',
+        priority: '0.70',
+        changefreq: 'monthly',
     }
 ];
 
