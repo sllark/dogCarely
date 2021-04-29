@@ -11,7 +11,7 @@
   }
 
   ul{
-    padding-left: 1rem!important;
+    //padding-left: 1rem!important;
 
     p{
       width: 100% !important;
@@ -19,8 +19,17 @@
   }
 
   &>ul{
-    margin: 0!important;
+    list-style-type: decimal;
+
+    margin-top: 1rem!important;
+    margin-left: 1rem!important;
+    padding-left: 3.3rem!important;
+
+  &> li{
     padding-left: 0!important;
+  }
+
+
   }
 
   &__list{

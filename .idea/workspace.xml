@@ -3,6 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="27b9817a-7c3b-490a-b03d-356bd245ba9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/listing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/listing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/listing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/listing.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/post.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinterest-bfa2b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-best-automatic-dog-feeders-for-large-dogs-under-100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/5-proven-no-pull-harness-for-your-german-shepherd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/best-mineral-supplement-for-dogs-that-eat-dirt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/best-mineral-supplement-for-dogs-that-eat-dirt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-dogs-die-from-the-leptospirosis-vaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-die-from-the-leptospirosis-vaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-dogs-eat-cooked-black-eyed-peas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/can-puppies-drink-milk-that-humans-drink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-long-can-a-dog-live-with-high-liver-enzymes.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-long-can-a-dog-live-with-high-liver-enzymes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-help-my-dog-with-milk-fever-aka-eclampsia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-make-a-dog-smell-good-without-a-bath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-take-care-of-a-dog-after-she-gives-birth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/how-to-use-coconut-oil-to-remove-dog-tear-stains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/my-dog-ate-a-tampon-and-what-should-I-do-for-treatment-and-prevention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/should-i-let-my-dog-see-my-dead-dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-are-dog-weak-spots-to-exploit-if-a-dog-attacks-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-dog-weak-spots-to-exploit-if-a-dog-attacks-you.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-are-the-best-natural-treatments-for-fleas-and-ticks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-should-i-do-if-my-dog-swallowed-a-rawhide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/what-to-do-when-one-dog-died-and-the-other-lives.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/what-to-do-when-one-dog-died-and-the-other-lives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-are-dogs-ears-so-soft-and-sensitive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-do-my-dogs-gums-bleed-when-chewing-bone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" beforeDir="false" afterPath="$PROJECT_DIR$/post/why-dogs-are-aggressive-towards-injured-or-older-dog-and-how-to-correct-this-behavior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_listingPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_listingPost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_postDisplayText.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_postDisplayText.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_tableOfContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_tableOfContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_post.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,9 +92,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -95,6 +128,9 @@
       <workItem from="1615230074032" duration="7671000" />
       <workItem from="1615230210188" duration="22390000" />
       <workItem from="1615230038093" duration="155000" />
+      <workItem from="1615239101594" duration="6434000" />
+      <workItem from="1615230020328" duration="260000" />
+      <workItem from="1615230108532" duration="6478000" />
     </task>
     <servers />
   </component>

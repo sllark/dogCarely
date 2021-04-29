@@ -11,7 +11,8 @@
 
 
   @media screen and (max-width: 600px) {
-    height: 53vh;
+    min-height: 53vh;
+    height: auto;
   }
   &__bg{
     position: absolute;
