@@ -129,6 +129,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/elevated-alt-in-dogs-why-alt-level-increases-and-what-you-can-do.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/what-are-pros-and-cons-of-leptospirosis-vaccine.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
