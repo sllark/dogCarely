@@ -134,6 +134,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/what-are-pros-and-cons-of-leptospirosis-vaccine.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/how-to-lower-creatinine-level-in-dogs.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
