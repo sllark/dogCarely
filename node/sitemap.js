@@ -139,6 +139,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/how-to-lower-creatinine-level-in-dogs.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/how-to-lower-elevated-alp-levels-in-dogs.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
