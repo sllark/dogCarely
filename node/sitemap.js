@@ -144,6 +144,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/how-to-lower-elevated-alp-levels-in-dogs.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/do-deaf-dogs-sleep-more.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
