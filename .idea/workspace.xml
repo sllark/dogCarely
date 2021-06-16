@@ -33,6 +33,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -49,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data/postMetaData" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,14 +70,21 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\data\postMetaData" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
-      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\post" />
+      <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img\webp" />
       <recent name="C:\Users\AQ\WebstormProjects\dogCarely\DogCarely\img" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,6 +133,9 @@
       <workItem from="1615230014953" duration="184000" />
       <workItem from="1615261029094" duration="645000" />
       <workItem from="1615230021265" duration="1554000" />
+      <workItem from="1615230028032" duration="81000" />
+      <workItem from="1615251393031" duration="2147000" />
+      <workItem from="1615230045672" duration="325000" />
     </task>
     <servers />
   </component>

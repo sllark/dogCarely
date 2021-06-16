@@ -149,6 +149,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/do-deaf-dogs-sleep-more.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/do-deaf-dogs-have-more-health-problems.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
