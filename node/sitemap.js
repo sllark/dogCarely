@@ -159,6 +159,11 @@ const links = [
         loc: 'https://www.dogcarely.com/post/best-home-remedies-for-dog-dry-heaving.html',
         priority: '0.70',
         changefreq: 'WEEKLY',
+    },
+    {
+        loc: 'https://www.dogcarely.com/post/dog-oral-cancer-when-to-put-down-your-dog.html',
+        priority: '0.70',
+        changefreq: 'WEEKLY',
     }
 ];
 
